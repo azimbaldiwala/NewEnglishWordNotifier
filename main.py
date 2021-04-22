@@ -31,4 +31,4 @@ while True:
     random_word = words[randint(0, words_len)]
     word_meaning = data[random_word]
     show_notification(random_word, word_meaning)
-    sleep(time_span * 60)
+    sleep(time_span * 60)   #New word will pop up after every 60 minutes.
